@@ -1,7 +1,7 @@
 # CORINA Classic Goes Python
 ![CORINA Header](./images/header.png)
 
-**CORINA Classic** is a rule- and databased, automatic, fast and powerful 3D molecular model builder optimized for small to medium-sized, drug-like molecules and is the _de facto_ industry standard for 3D structure generation in chemoinformatics and computational chemistry projects. Developed in C, CORINA Classic offers both standalone executables and a shared Python library. This repository showcases some example usages of the Python shared library.
+**CORINA Classic** is a rule- and data-based, automatic, fast, and powerful 3D molecular model builder optimized for small to medium-sized, drug-like molecules and is the _de facto_ industry standard for 3D structure generation in chemoinformatics and computational chemistry projects. Developed in C, CORINA Classic offers both standalone executables and a shared Python library. This repository showcases some example usages of the Python shared library.
 
 For detailed information about CORINA Classic, visit the [CORINA Classic home page](https://mn-am.com/products/corina/).
 
