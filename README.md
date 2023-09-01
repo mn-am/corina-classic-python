@@ -11,13 +11,13 @@ To execute the examples in this repository, you must have a copy of the Python l
 
 ### System Requirements
 
-- Operating system: Linux (x86-64 architecture)
+- Operating system: x86-64 Linux (RHEL7)
 - Python compatibility: Python 3.8 to 3.11
 - The library is as a shared object file that must be copied to the working directory as a file named "corina.so"
 
 ### Using the Python library
 
-1. Check the Python version installed:
+1. Check the Python version installed as follows.
    ```shell
    python3 --version
    # Output example: Python 3.10.7
@@ -25,7 +25,7 @@ To execute the examples in this repository, you must have a copy of the Python l
 
 2. From the Python library distribution of CORINA Classic, copy the appropriate "corina.so" for your Python version to your working directory.
 
-3. Create a test Python script. Here's a simple example:
+3. Create a test Python script. Below is a simple example.
 
 ```python
 import corina
@@ -52,7 +52,7 @@ All possible options for the command line are described in the CORINA Classic ma
 
 
 
-4. Execute the Python script:
+4. Execute the Python script.
 
 
 ```shell
@@ -66,7 +66,7 @@ This command will output an SDF V3000 compatible file with 3D atom coordinates.
 ### Creating a Jupyter Notebook
 
 1. Ensure the Python library of CORINA Classic is set up as described above.
-2. Install Jupyter Notebook (preferably within a virtual environment):
+2. Install Jupyter Notebook (preferably within a virtual environment) as shown below.
 
 ```shell
 mkdir jupyter
@@ -81,12 +81,12 @@ pip install jupyter
 jupyter notebook
 ```
 
-4. Create a new notebook
+4. Create a new notebook.
 
 ![Screenshot from 2023-08-11 17-45-01.png](images%2FScreenshot%20from%202023-08-11%2017-45-01.png)
 ![Screenshot from 2023-08-11 17-50-14.png](images%2FScreenshot%20from%202023-08-11%2017-50-14.png)
 
-5. Run a simple example
+5. Run a simple example.
 
 ![Screenshot from 2023-08-11 17-54-19.png](images%2FScreenshot%20from%202023-08-11%2017-54-19.png)
 
